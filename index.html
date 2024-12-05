@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JinStore</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <!-- Top Banner -->
+  <div class="top-banner">
+    <p>FREE delivery & 40% Discount for next 3 orders! Place your 1st order in.</p>
+    <div class="countdown">
+      <span id="hours">47</span>hrs
+      <span id="minutes">06</span>min
+      <span id="seconds">57</span>sec
+      <span id="milliseconds">08</span>
+    </div>
+  </div>
+
+  <!-- Secondary Header -->
+  <div class="secondary-header">
+    <div class="left-links">
+      <a href="#">About Us</a>
+      <a href="#">My account</a>
+      <a href="#">Wishlist</a>
+      <span class="delivery-time">We deliver to you every day from 7:00 to 23:00</span>
+    </div>
+    <div class="right-links">
+      <select class="language-select">
+        <option>English</option>
+      </select>
+      <select class="currency-select">
+        <option>USD</option>
+      </select>
+      <a href="#">Order Tracking</a>
+    </div>
+  </div>
+
+  <!-- Main Header -->
+  <header class="main-header">
+    <div class="logo">
+      <img src="logo.png" alt="JinStore" class="logo-image">
+      <span>JinStore</span>
+    </div>
+
+    <div class="location-selector">
+      <span class="location-icon">📍</span>
+      <span>Deliver to</span>
+    </div>
+
+    <div class="search-bar">
+      <input type="text" placeholder="Search for products, categories or brands...">
+      <button type="submit">
+        <img src="search2.png" class="search-icon" alt="">
+      </button>
+    </div>
+
+    <div class="header-actions">
+      <button class="sign-in">
+        <span class="user-icon">👤</span>
+        <span>Sign In<br>Account</span>
+      </button>
+
+      <button class="wishlist">
+        <span class="heart-icon">❤️</span>
+        <span class="counter">0</span>
+      </button>
+
+      <button class="cart">
+        <span class="cart-icon">🛒</span>
+        <span class="counter">0</span>
+      </button>
+    </div>
+  </header>
+
+  <!-- Navigation Menu -->
+  <nav class="main-nav">
+    <ul class="left-menu">
+      <li><a href="#" class="home">Home</a></li>
+      <li><a href="#" class="shop">Shop</a></li>
+      <li><a href="#">Fruits & Vegetables</a></li>
+      <li><a href="#">Beverages</a></li>
+      <li><a href="#">Blog</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+
+    <div class="right-menu">
+      <div class="trending">
+        <span>Trending Products</span>
+        <span class="arrow">▼</span>
+      </div>
+      <div class="almost-finished">
+        <span>Almost Finished</span>
+        <span class="hot">HOT</span>
+      </div>
+    </div>
+  </nav>
+  <div class="banner">
+    <div class="banner-content">
+      <span class="discount-tag">Weekend Discount</span>
+      <h1>Shopping with us for better quality and the best price</h1>
+      <p>We have prepared special discounts for you on grocery products.<br>
+        Don't miss these opportunities...</p>
+      <div class="price-action">
+        <button class="shop-now">Shop Now</button>
+        <div class="price">
+          <span class="current-price">$21.67</span>
+          <span class="original-price">$26.67</span>
+        </div>
+      </div>
+    </div>
+    <div class="banner-images">
+      <img src="https://images.unsplash.com/photo-1517433670267-08bbd4be890f?w=500" alt="Breakfast cereal with fruits"
+        class="cereal-bowl">
+      <img src="https://images.unsplash.com/photo-1563725911583-7d108f720483?w=500" alt="Cereal package"
+        class="cereal-package">
+    </div>
+  </div>
+  <nav class="category-nav">
+    <div class="category-item">
+      <img src="https://images.unsplash.com/photo-1542838132-92c53300491e?w=150" alt="Fruits & Vegetables">
+      <span>Fruits & Vegetables</span>
+    </div>
+    <div class="category-item">
+      <img src="https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?w=150" alt="Baby & Pregnancy">
+      <span>Baby & Pregnancy</span>
+    </div>
+    <div class="category-item">
+      <img src="https://images.unsplash.com/photo-1625772299848-391b6a87d7b3?w=150" alt="Beverages">
+      <span>Beverages</span>
+    </div>
+    <div class="category-item">
+      <img src="https://images.unsplash.com/photo-1607623814075-e51df1bdc82f?w=150" alt="Meats & Seafood">
+      <span>Meats & Seafood</span>
+    </div>
+    <div class="category-item">
+      <img src="https://images.unsplash.com/photo-1599629954294-16b394a8ba35?w=150" alt="Biscuits & Snacks">
+      <span>Biscuits & Snacks</span>
+    </div>
+    <div class="category-item">
+      <img src="https://images.unsplash.com/photo-1509440159596-0249088772ff?w=150" alt="Breads & Bakery">
+      <span>Breads & Bakery</span>
+    </div>
+    <div class="category-item">
+      <img src="https://images.unsplash.com/photo-1550583724-b2692b85b150?w=150" alt="Breakfast & Dairy">
+      <span>Breakfast & Dairy</span>
+    </div>
+    <div class="category-item">
+      <img src="https://images.unsplash.com/photo-1576398289164-c48dc021b4e1?w=150" alt="Frozen Foods">
+      <span>Frozen Foods</span>
+    </div>
+    <div class="category-item">
+      <img src="https://images.unsplash.com/photo-1578916171728-46686eac8d58?w=150" alt="Grocery & Staples">
+      <span>Grocery & Staples</span>
+    </div>
+  </nav>
+  <main class="container">
+    <header class="section-header">
+      <div class="title-group">
+        <h2>Editor's Pick</h2>
+        <span class="subtitle">New products with updated stocks.</span>
+      </div>
+      <a href="#" class="view-all">View All →</a>
+    </header>
+
+    <div class="products-grid">
+      <!-- Product 1 -->
+      <div class="product-card">
+        <div class="product-image">
+          <span class="discount-badge">75%</span>
+          <button class="favorite-btn">♡</button>
+          <span class="organic-badge">ORGANIC</span>
+          <img src="https://images.unsplash.com/photo-1600271886742-f049cd451bba?w=300" alt="Apple Juice">
+        </div>
+        <div class="product-details">
+          <div class="rating">
+            ⭐⭐⭐⭐ <span>3</span>
+          </div>
+          <h3>100 Percent Apple Juice - 64 fl oz Bottle</h3>
+          <p class="description">Vivamus adipiscing nisi ut dolor dignissim semper. Nulla luctus malesuada tincidunt.
+          </p>
+          <div class="price-group">
+            <span class="current-price">$0.50</span>
+            <span class="original-price">$1.99</span>
+          </div>
+          <div class="countdown">
+            <div class="time-block">87</div>
+            <div class="time-block">06</div>
+            <div class="time-block">57</div>
+            <div class="time-block">08</div>
+            <span class="countdown-text">Remains until the end of the offer</span>
+          </div>
+          <div class="stock-info">
+            available only: <span>23</span>
+          </div>
+          <button class="add-cart-btn">Add to cart +</button>
+        </div>
+      </div>
+
+      <!-- Product 2 -->
+      <div class="product-card">
+        <div class="product-image">
+          <span class="discount-badge">11%</span>
+          <button class="favorite-btn">♡</button>
+          <span class="cold-badge">COLD SALE</span>
+          <img src="https://images.unsplash.com/photo-1513104890138-7c749659a591?w=300" alt="Rising Crust Pizza">
+        </div>
+        <div class="product-details">
+          <div class="rating">
+            ⭐⭐⭐⭐⭐ <span>3</span>
+          </div>
+          <h3>Great Value Rising Crust Frozen Pizza, Supreme</h3>
+          <div class="price-group">
+            <span class="current-price">$8.99</span>
+            <span class="original-price">$9.99</span>
+          </div>
+          <button class="add-cart-btn">Add to cart +</button>
+        </div>
+      </div>
+
+      <!-- Additional products follow the same structure -->
+    </div>
+  </main>
+  <!-- **********************************************************-->
+  <section class="promo-section">
+    <div class="promo-grid">
+      <article class="promo-card">
+        <div class="card-content">
+          <span class="badge">Only This Week</span>
+          <h2>We provide you the best quality products</h2>
+          <p>A family place for grocery</p>
+          <a href="#" class="shop-now">Shop Now →</a>
+        </div>
+        <div class="card-image">
+          <img src="https://images.unsplash.com/photo-1622597467836-f3285f2131b7?w=500"
+            alt="Orange juice and fresh oranges">
+        </div>
+      </article>
+
+      <article class="promo-card">
+        <div class="card-content">
+          <span class="badge">Only This Week</span>
+          <h2>We make your grocery shopping more exciting</h2>
+          <p>Shine the morning...</p>
+          <a href="#" class="shop-now">Shop Now →</a>
+        </div>
+        <div class="card-image">
+          <img src="https://images.unsplash.com/photo-1621447504864-d8686e12698c?w=500" alt="Popcorn snack">
+        </div>
+      </article>
+
+      <article class="promo-card">
+        <div class="card-content">
+          <span class="badge">Only This Week</span>
+          <h2>The one supermarket that saves your money</h2>
+          <p>Breakfast made better</p>
+          <a href="#" class="shop-now">Shop Now →</a>
+        </div>
+        <div class="card-image">
+          <img src="https://images.unsplash.com/photo-1557800636-894a64c1696f?w=500" alt="Fresh fruits">
+        </div>
+      </article>
+    </div>
+  </section>
+  <section class="news-section">
+    <header class="section-header">
+      <div class="title-group">
+        <h2>Our News</h2>
+        <span class="subtitle">Some of the new posts this week</span>
+      </div>
+      <a href="#" class="view-all">View All →</a>
+    </header>
+
+    <div class="news-grid">
+      <!-- <article class="news-card">
+        <div class="card-image">
+          <span class="category">UNCATEGORIZED</span>
+          <img src="https://images.unsplash.com/photo-1513558161293-cdaf765ed2fd?w=800" alt="Drinks and ice cream">
+        </div>
+        <div class="card-content">
+          <h3>How grocers are approaching delivery as the market evolves</h3>
+          <p>Bimlilvakst treskade i höbel dem mobilmisstabruk deren jyn nöning och heteroskit i rel ultran. Fålass</p>
+          <div class="card-meta">
+            <span class="author">by sinan</span>
+            <span class="date">3 Nov 2023</span>
+          </div>
+        </div>
+      </article> -->
+      <!-- 
+      <article class="news-card">
+        <div class="card-image">
+          <span class="category">UNCATEGORIZED</span>
+          <img src="https://images.unsplash.com/photo-1514933651103-005eec06c04b?w=800"
+            alt="Grabbing drink from ice bucket">
+        </div>
+        <div class="card-content">
+          <h3>The Friday Checkout: Food insecurity keeps retailers off balance</h3>
+          <p>Bimlilvakst treskade i höbel dem mobilmisstabruk deren jyn nöning och heteroskit i rel ultran. Fålass</p>
+          <div class="card-meta">
+            <span class="author">by sinan</span>
+            <span class="date">3 Nov 2023</span>
+          </div>
+        </div>
+      </article> -->
+
+      <!-- <article class="news-card">
+        <div class="card-image">
+          <span class="category">UNCATEGORIZED</span>
+          <img src="https://images.unsplash.com/photo-1452195100486-9cc805987862?w=800" alt="Cheese selection">
+        </div>
+        <div class="card-content">
+          <h3>Consumer want grocer to use AI to help them save money Dumnhumby</h3>
+          <p>Bimlilvakst treskade i höbel dem mobilmisstabruk deren jyn nöning och heteroskit i rel ultran. Fålass</p>
+          <div class="card-meta">
+            <span class="author">by sinan</span>
+            <span class="date">3 Nov 2023</span>
+          </div>
+        </div>
+      </article> -->
+
+      <!-- <article class="news-card">
+        <div class="card-image">
+          <span class="category">UNCATEGORIZED</span>
+          <img src="https://images.unsplash.com/photo-1542838132-92c53300491e?w=800" alt="Family shopping">
+        </div>
+        <div class="card-content">
+          <h3>Order up! How grocers are replicating the restaurant experience in retail</h3>
+          <p>Bimlilvakst treskade i höbel dem mobilmisstabruk deren jyn nöning och heteroskit i rel ultran. Fålass</p>
+          <div class="card-meta">
+            <span class="author">by sinan</span>
+            <span class="date">3 Nov 2023</span>
+          </div>
+        </div>
+      </article> -->
+    </div>
+  </section>
+
+
+  <footer class="footer">
+    <div class="newsletter">
+      <div class="newsletter-content">
+        <h3>Join our newsletter for £10 offs</h3>
+        <p>Register now to get latest updates on promotions & coupons.Don't worry, we not spam!</p>
+      </div>
+      <div class="newsletter-form">
+        <input type="email" placeholder="Enter your email address">
+        <button>SEND</button>
+      </div>
+      <p class="terms">By subscribing you agree to our <a href="#">Terms & Conditions</a> and <a href="#">Privacy &
+          Cookies Policy</a>.</p>
+    </div>
+
+    <div class="footer-content">
+      <div class="footer-section">
+        <h4>Do You Need Help ?</h4>
+        <p class="help-text">Aullestigen syr. Nek diuråsk fridomssa. Nor antipol sveps nyrat. Pressa filmiska.</p>
+        <div class="contact-info">
+          <div class="phone">
+            <span>Monday-Friday: 09am-6pm</span>
+            <h3>0 800 300-353</h3>
+          </div>
+          <div class="email">
+            <span>Need help with your order?</span>
+            <a href="mailto:info@example.com">info@example.com</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-section">
+        <h4>Make Money with Us</h4>
+        <ul>
+          <li><a href="#">Sell on Origin</a></li>
+          <li><a href="#">Sell Your Services on Origin</a></li>
+          <li><a href="#">Sell on Origin Business</a></li>
+          <li><a href="#">Sell Your Apps on Origin</a></li>
+          <li><a href="#">Become an Affiliate</a></li>
+          <li><a href="#">Advertise Your Products</a></li>
+          <li><a href="#">Self-Publish with Us</a></li>
+          <li><a href="#">Become an IReview Vendor</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-section">
+        <h4>Let Us Help You</h4>
+        <ul>
+          <li><a href="#">Accessibility Statement</a></li>
+          <li><a href="#">Your Orders</a></li>
+          <li><a href="#">Returns & Replacements</a></li>
+          <li><a href="#">Shipping Rates & Policies</a></li>
+          <li><a href="#">Refund and Returns Policy</a></li>
+          <li><a href="#">Privacy Policy</a></li>
+          <li><a href="#">Terms and Conditions</a></li>
+          <li><a href="#">Cookie Settings</a></li>
+          <li><a href="#">Help Center</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-section">
+        <h4>Get to Know Us</h4>
+        <ul>
+          <li><a href="#">Careers for Origin</a></li>
+          <li><a href="#">About Origin</a></li>
+          <li><a href="#">Investor Relations</a></li>
+          <li><a href="#">Origin Devices</a></li>
+          <li><a href="#">Customer reviews</a></li>
+          <li><a href="#">Social Responsibility</a></li>
+          <li><a href="#">Store Locations</a></li>
+        </ul>
+
+        <div class="app-download">
+          <h4>Download our app</h4>
+          <div class="app-buttons">
+            <a href="#" class="app-button">
+              <img src="https://upload.wikimedia.org/wikipedia/commons/7/78/Google_Play_Store_badge_EN.svg"
+                alt="Get it on Google Play">
+            </a>
+            <a href="#" class="app-button">
+              <img src="https://upload.wikimedia.org/wikipedia/commons/3/3c/Download_on_the_App_Store_Badge.svg"
+                alt="Download on the App Store">
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <div class="social-links">
+        <span>Follow us on social media:</span>
+        <a href="#" class="social-icon">Facebook</a>
+        <a href="#" class="social-icon">Twitter</a>
+        <a href="#" class="social-icon">Instagram</a>
+        <a href="#" class="social-icon">LinkedIn</a>
+      </div>
+
+      <div class="payment-methods">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/5/5e/Visa_Inc._logo.svg" alt="Visa">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/b/b5/PayPal.svg" alt="PayPal">
+        <img src="https://cdn.worldvectorlogo.com/logos/skrill-1.svg" alt="Skrill">
+        <img src="https://cdn.worldvectorlogo.com/logos/klarna-1.svg" alt="Klarna">
+      </div>
+
+      <div class="copyright">
+        <p>Copyright 2024 © Jiradom WooCommerce WordPress Theme. All right reserved. Powered by <a href="#">BlackFiles
+            Themes</a>.</p>
+        <div class="legal-links">
+          <a href="#">Terms and Conditions</a>
+          <a href="#">Privacy Policy</a>
+          <a href="#">Order Tracking</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+</body>
+<script src="app.js"></script>
+
+</html>
