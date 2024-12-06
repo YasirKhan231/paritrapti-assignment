@@ -228,7 +228,7 @@ p {
 }
 
 .shop-now:hover {
-  background-color: #5B2BB9;
+  background-color: #dad6e2;
 }
 
 .price {
@@ -1650,5 +1650,92 @@ body {
       flex-direction: column;
       align-items: flex-start;
       gap: 12px;
+  }
+}
+.promo-container {
+  display: flex;
+  gap: 20px;
+  padding: 20px;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  margin: 0 auto;
+
+}
+
+.promo-card {
+  flex: 1;
+  min-width: 300px;
+  height: 200px;
+  border-radius: 12px;
+  overflow: hidden;
+  position: relative;
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-size: cover;
+  background-position: center;
+  color: white;
+}
+
+.promo-card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.4);
+  z-index: 1;
+}
+
+.promo-content {
+  position: relative;
+  z-index: 2;
+  color: white;
+}
+
+.promo-badge {
+  color: #ff4d4d;
+  font-size: 14px;
+  font-weight: 600;
+  margin-bottom: 12px;
+}
+
+.promo-title {
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 8px;
+  max-width: 70%;
+  color: white;
+  text-shadow: black;
+}
+
+.promo-subtitle {
+  font-size: 16px;
+  margin-bottom: 20px;
+  color: white;
+  text-shadow: black;
+}
+
+.shop-now {
+  display: inline-flex;
+  align-items: center;
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  font-weight: 600;
+  font-size: 14px;
+  background-color: white;
+  padding: 4px;
+}
+
+.shop-now::after {
+  content: "→";
+  margin-left: 8px;
+}
+
+@media (max-width: 768px) {
+  .promo-card {
+      width: 100%;
   }
 }
