@@ -29,5 +29,6 @@ git clone https://github.com/your-username/zinstore.git
 composer install
 
 php artisan key:generate
+
 php artisan serve  
 
