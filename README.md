@@ -23,7 +23,7 @@ Before proceeding, ensure you have the following installed on your system:
 Run the following command to clone the repository:
 
 ```bash
-git clone [https://github.com/YasirKhan231/paritrapti-assignment.git]
+git clone https://github.com/YasirKhan231/paritrapti-assignment.git
 ```
 
 composer install
